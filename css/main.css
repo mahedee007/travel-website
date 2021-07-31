@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Header section */
+#title {
+  width: 100%;
+  font-family: "Volkhov", serif;
+  background: url(../images/Decore.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.navbar-item {
+  padding: 0 1.5rem;
+}
+.navbar-item a {
+  color: #212832;
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+}
+.navbar-item button {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  color: #212832;
+}
+
+/* Hero Section */
+.hero-text {
+  font-family: "Poppins", sans-serif;
+  color: #df6951;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.hero-title {
+  font-size: 5.25rem;
+  font-weight: bold;
+  letter-spacing: -0.04em;
+  line-height: 5.56rem;
+}
+.hero-descrition {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: #5e6282;
+  line-height: 1.875rem;
+  font-weight: 500;
+}
+.buttons {
+  margin-top: 2rem;
+}
+.find-btn {
+  padding: 1.1875rem 1.6875rem;
+  background-color: #f1a501;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+}
+.demo-btn {
+  justify-content: center;
+}
+.demo-btn {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.demo-btn i {
+  color: #df6951;
+  font-size: 3.5rem;
+}
+.hero-img {
+  position: relative;
+  z-index: 2;
+}
+.plane1 {
+  position: absolute;
+  top: 3%;
+  right: 30%;
+}
+.plane2 {
+  position: absolute;
+  right: -3%;
+  top: 10%;
+  z-index: 1;
+}
