@@ -145,17 +145,15 @@
 
 @media only screen and (max-width: 576px) {
   #title {
-    position: relative;
     width: 100%;
     background-image: url(..//images/Decore.png);
     background-position: top;
-    z-index: -2;
   }
   .decore1 {
     position: absolute;
-    top: 20%;
+    top: 18%;
     left: 0;
-    z-index: -1;
+    z-index: 1;
   }
   .decore2 {
     position: absolute;
@@ -181,6 +179,10 @@
   }
   .hero-img {
     width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+  .card-rows {
     position: relative;
     z-index: 2;
   }
