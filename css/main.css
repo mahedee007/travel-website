@@ -26,6 +26,12 @@
 }
 
 /* Hero Section */
+.decore1 {
+  position: absolute;
+  top: 25%;
+  left: 23%;
+  z-index: -1;
+}
 .hero-text {
   font-family: "Poppins", sans-serif;
   color: #df6951;
@@ -82,4 +88,55 @@
   right: -3%;
   top: 10%;
   z-index: 1;
+}
+/* Catagory */
+#catagory {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  position: relative;
+}
+.catagory-text {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: #5e6282;
+  font-weight: 600;
+  size: 1rem;
+}
+.catagory-title {
+  font-family: Volkhov;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.decore2 {
+  position: absolute;
+  bottom: -5%;
+  left: 23%;
+  z-index: -1;
+}
+.cards {
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+    0px 20px 13px rgba(0, 0, 0, 0.01),
+    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 2.2rem;
+}
+.card-image {
+  width: 6.13rem;
+  height: 4.87rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.card-intro {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.card-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.62rem;
 }
