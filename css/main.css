@@ -111,7 +111,7 @@
 .decore2 {
   position: absolute;
   bottom: -5%;
-  left: 23%;
+
   z-index: -1;
 }
 .cards {
@@ -148,6 +148,7 @@
     width: 100%;
     background-image: url(..//images/Decore.png);
     background-position: top;
+    background-repeat: no-repeat;
   }
   .decore1 {
     position: absolute;
@@ -158,7 +159,7 @@
   .decore2 {
     position: absolute;
     bottom: 0%;
-    left: 4%;
+
     z-index: -1;
   }
   .plane1 {
@@ -179,10 +180,6 @@
   }
   .hero-img {
     width: 100%;
-    position: relative;
-    z-index: 2;
-  }
-  .card-rows {
     position: relative;
     z-index: 2;
   }
